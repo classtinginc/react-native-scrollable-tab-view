@@ -28,7 +28,7 @@ const ScrollableTabBar = createReactClass({
     style: DeprecatedPropTypes.ViewPropTypes.style,
     tabStyle: DeprecatedPropTypes.ViewPropTypes.style,
     tabsContainerStyle: DeprecatedPropTypes.ViewPropTypes.style,
-    textStyle: Text.propTypes.style,
+    textStyle: DeprecatedPropTypes.TextPropTypes.style,
     renderTab: PropTypes.func,
     underlineStyle: DeprecatedPropTypes.ViewPropTypes.style,
     onScroll: PropTypes.func,
