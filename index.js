@@ -1,5 +1,4 @@
 const React = require("react");
-const { Component } = React;
 const ReactNative = require('react-native');
 const DeprecatedPropTypes = require('deprecated-react-native-prop-types');
 const createReactClass = require("create-react-class");
@@ -8,15 +7,11 @@ const {
   Dimensions,
   View,
   Animated,
-  ScrollView,
   Platform,
   StyleSheet,
-  InteractionManager,
 } = ReactNative;
 
-const ViewPagerAndroid = require("@react-native-community/viewpager");
 const TimerMixin = require("react-timer-mixin");
-const ViewPager = require("@react-native-community/viewpager");
 
 const SceneComponent = require("./SceneComponent");
 const DefaultTabBar = require("./DefaultTabBar");
